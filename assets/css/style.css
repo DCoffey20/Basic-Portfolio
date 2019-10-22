@@ -1,0 +1,38 @@
+*{
+
+}
+
+body{
+    width: 960px;
+}
+
+.name {
+    background-color:#4aaaa5;
+    float: left;
+    color: #ffffff;
+}
+
+.header{
+    background-color: #ffffff;
+}
+
+.links{
+    float: right;
+}
+
+h2{
+    clear: both;
+    color: #4aaaa5;
+}
+
+.footer{
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 300%;
+}

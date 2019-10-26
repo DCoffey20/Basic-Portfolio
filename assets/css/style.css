@@ -8,7 +8,7 @@ body{
 header{
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
-    height: 35px;
+    height: 50px;
     color: #ffffff;
 }
 
@@ -26,6 +26,8 @@ h1{
     float: left;
     padding: 0px;
     margin: 0px;
+    height: 50px;
+    line-height: 200%;
 }
 
 ul{
@@ -33,7 +35,8 @@ ul{
     margin: 0px;
     padding: 0px;
     float: right;
-    line-height: 30px;
+    line-height: 20px;
+    padding-top: 15px;
 }
 
 li{
@@ -41,7 +44,7 @@ li{
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     border-right: 1px solid #cccccc;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .contact{
     border-right: none;
@@ -54,24 +57,122 @@ li{
     margin: 0 auto;
     padding: 20px;
     margin-top: 20px;
+    min-height: 350px;
+    margin-bottom: 100px;
 }
 
 img{
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     padding-right: 10px;
     float: left;
+    clear: both;
 }
 
 h2{
     clear: both;
     color: #4aaaa5;
     border-bottom: 5px solid #dddddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-p{
+.indexp{
     margin-left: 10px;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #666666;
+    position: relative;
+}
+
+.pic1 img{
+    height: 250px;
+    width: 250px;
+    padding:25px;
+    
+}
+
+.pic1text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 175px;
+    left: 25px;
+    width: 250px;
+    height: 50px;
+}
+
+.pic2 img{
+    height: 250px;
+    width: 250px;
+    padding:25px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.pic2text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 175px;
+    left: 375px;
+    width: 250px;
+    height: 50px;
+}
+
+.pic3 img{
+    height: 250px;
+    width: 250px;
+    padding:25px;
+}
+
+.pic3text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 475px;
+    left: 25px;
+    width: 250px;
+    height: 50px;
+}
+
+.pic4 img{
+    height: 250px;
+    width: 250px;
+    padding:25px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.pic4text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 475px;
+    left: 375px;
+    width: 250px;
+    height: 50px;
+}
+
+.pic5 img{
+    height: 250px;
+    width: 250px;
+    padding:25px;
+}
+
+.pic5text{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 800px;
+    left: 25px;
+    width: 250px;
+    height: 50px;
 }
 
 .footer{
